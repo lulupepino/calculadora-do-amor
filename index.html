@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="caixa">
+        <h1>CALCULADORA DO AMOR
+        </h1>
+        <h3>Coloque de 0 A 50</h3>
+        <form onsubmit="(e) => validarNumero(e)">
+          <input
+            id="numero"
+            class="number"
+            min="1"
+            max="50"
+            required
+            placeholder="Coloque Seu Amor"
+          />
+          <button type="submit">Calcular</button>
+        </form>
+        <div id="mensagem">Essa e a mensagem</div>
+        <div class="coracao top"></div>
+        <div class="coracao grande top"></div>
+        <div class="coracao bottom"></div>
+        <div class="coracao grande bottom"></div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
